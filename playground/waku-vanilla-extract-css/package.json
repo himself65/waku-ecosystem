@@ -1,0 +1,25 @@
+{
+  "name": "waku-vanilla-extract-css",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "waku dev --with-ssr",
+    "build": "waku build",
+    "start": "waku start --with-ssr"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "react": "18.3.0-canary-a41957507-20231017",
+    "react-dom": "18.3.0-canary-a41957507-20231017",
+    "react-server-dom-webpack": "18.3.0-canary-a41957507-20231017",
+    "waku": "0.16.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.31",
+    "@types/react-dom": "^18.2.14",
+    "@vanilla-extract/css": "^1.13.0",
+    "@vanilla-extract/vite-plugin": "^3.9.0",
+    "typescript": "^5.2.2"
+  }
+}
